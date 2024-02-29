@@ -39,5 +39,6 @@ public class AppTest
     public void testCheck()
     {
         assertEquals("1",App.fizbuz(1));
+        assertEquals("Fizz",App.fizbuz(3));
     }
 }
