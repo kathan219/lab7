@@ -12,6 +12,6 @@ public class App
     }
 
     public static String fizbuz(int i) {
-        return String.valueOf(0);
+        return Integer.toString(i);
     }
 }
