@@ -12,6 +12,10 @@ public class App
     }
 
     public static String fizbuz(int i) {
+
+        if (i%3==0){
+           return "Fizz";
+        }
         return Integer.toString(i);
     }
 }
